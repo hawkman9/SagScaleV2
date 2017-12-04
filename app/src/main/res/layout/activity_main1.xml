@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.example.benja.sagscalev2.MainActivity1"
     tools:showIn="@layout/activity_main1">
 
@@ -32,9 +32,9 @@
         android:layout_height="wrap_content"
         android:layout_gravity="top|center_horizontal"
         android:accessibilityTraversalAfter="@+id/fab"
-        android:text="Calculate Sag"
-        app:layout_anchor="@+id/include"
-        app:layout_anchorGravity="center_vertical|center_horizontal" />
+        android:text="Calculate Sag">
+
+    </Button>
 
     <Button
         android:id="@+id/button2"
@@ -42,8 +42,8 @@
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|center_horizontal"
         android:accessibilityTraversalAfter="@id/content_cal_sag"
-        android:text="Suspension History"
-        app:layout_anchor="@+id/include"
-        app:layout_anchorGravity="center_vertical|center_horizontal" />
+        android:text="Suspension History">
+
+    </Button>
 
 </android.support.design.widget.CoordinatorLayout>

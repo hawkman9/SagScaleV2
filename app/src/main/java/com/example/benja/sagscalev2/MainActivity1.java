@@ -7,7 +7,7 @@ import android.view.View;
 import android.widget.Button;
 import android.content.Intent;
 import android.widget.TextView;
-import android.support.design.widget.FloatingAc;
+import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 
 public class MainActivity1 extends AppCompatActivity {
@@ -31,9 +31,8 @@ public class MainActivity1 extends AppCompatActivity {
         Button button = (Button) findViewById(R.id.button1);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
-                goToCalSag();
-            }
+            public void onClick(View v) {goToCalSag();}
+
         });
 
         Button button1 = (Button) findViewById(R.id.button2);
