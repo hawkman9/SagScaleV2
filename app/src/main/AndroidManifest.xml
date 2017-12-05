@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity1">
+        <activity
+            android:name=".MainActivity1"
+            android:label="SagScaleV2"
+            android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -20,6 +23,7 @@
         <activity android:name=".EditDataActivity"></activity>
         <activity android:name=".MainActivity"></activity>
         <activity android:name=".CalSag"></activity>
+        <activity android:name=".SuspensionHistory"></activity>
     </application>
 
 </manifest>
